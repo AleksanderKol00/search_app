@@ -6,4 +6,4 @@ test:
 # Install dependencies from pyproject.toml
 .PHONY: install
 install:
-	poetry install
+	poetry install --no-root
