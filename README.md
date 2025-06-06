@@ -12,6 +12,12 @@ The app exposes `GET` endpoint on path:
 * Python version: 3.13
 * FastAPI
 
+## Configuration
+`.ENV` file
+```
+LOG_LEVEL=DEBUG
+HTTP_PORT=8000
+```
 ## Setup
 `make install`
 

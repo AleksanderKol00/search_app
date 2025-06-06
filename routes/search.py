@@ -12,6 +12,7 @@ log = logging.getLogger(__name__)
 
 @router.get("/{value}/", response_model=SearchItemResponse)
 def search(value: int, request: Request):
+    """Get index for matching given value"""
     log.info(f"Got search request for value: {value}")
     search_service = SearchService(request.app.state.data)
     item = search_service.find_item(value)

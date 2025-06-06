@@ -16,6 +16,9 @@ class SearchItem(BaseModel):
 
 
 class SearchService:
+    """
+    Search service responsible for finding the index of matching given value
+    """
     CONFORMATION_LEVEL = 0.1
 
     def __init__(self, data: list[int]) -> None:
