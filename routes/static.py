@@ -1,0 +1,1 @@
+ERROR_MSG = "ERROR: Can't find index for given value"
